@@ -1,4 +1,4 @@
-import SectionHeading from "@/components/Heiper/SectionHeading"
+
 import { aboutInfo } from "@/Data/data";
 import { FaCheck } from "react-icons/fa";
 
@@ -6,7 +6,7 @@ export default function About  () {
   return (
     <div className="pt-16 pb-16 bg-[#050709]">
         {/* .......SEctionHeading..... */}
-        <SectionHeading>About Me</SectionHeading>
+                      <h1 className="bg-blue-800 w-fit text-center px-4 py-3 mx-auto text-whitetext-2xl sm:text-3xl md:text-4xl uppercase -rotate-6"> About Me</h1>    
         <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
             {/* ....Text content.... */}
             <div>
