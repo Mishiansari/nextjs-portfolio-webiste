@@ -67,7 +67,6 @@ export default function ContactForm  ()  {
                  duration-150 rounded-full">Send Message</button>
               </div>
 
-
         </form>
 
         </div>
